@@ -12,7 +12,12 @@ import {
   ChatBubbleOutline as ChatBubbleOutlineIcon,
   SendOutlined as SendOutlinedIcon,
   BookmarkBorder as BookmarkBorderIcon,
-  MoreHoriz as MoreHorizIcon
+  MoreHoriz as MoreHorizIcon,
+  Home as HomeIcon,
+  Search as SearchIcon,
+  Add as AddIcon,
+  Explore as ExploreIcon,
+  Person as PersonIcon,
 } from '@mui/icons-material';
 
 const InstagramPost = () => {
@@ -131,21 +136,21 @@ const InstagramPost = () => {
             borderTop: '1px solid #262626',
           }}
         >
-          <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
-            <Box component="span" sx={{ width: 16, height: 16, bgcolor: 'white', borderRadius: '50%' }} />
-          </IconButton>
-          <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
-            <Box component="span" sx={{ width: 16, height: 16, bgcolor: 'white', borderRadius: '2px' }} />
-          </IconButton>
-          <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
-            <Box component="span" sx={{ width: 16, height: 16, bgcolor: 'white', borderRadius: '2px' }} />
-          </IconButton>
-          <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
-            <Box component="span" sx={{ width: 16, height: 16, bgcolor: 'white', borderRadius: '2px' }} />
-          </IconButton>
-          <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
-            <Box component="span" sx={{ width: 16, height: 16, bgcolor: 'white', borderRadius: '50%' }} />
-          </IconButton>
+      <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
+        <HomeIcon sx={{ fontSize: 30 }} />
+      </IconButton>
+      <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
+        <SearchIcon sx={{ fontSize: 30 }} />
+      </IconButton>
+      <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
+        <AddIcon sx={{ fontSize: 30 }} />
+      </IconButton>
+      <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
+        <ExploreIcon sx={{ fontSize: 30 }} />
+      </IconButton>
+      <IconButton size="small" sx={{ color: 'white', p: 0.5 }}>
+        <PersonIcon sx={{ fontSize: 30 }} />
+      </IconButton>
         </Box>
       </Box>
     </Paper>
